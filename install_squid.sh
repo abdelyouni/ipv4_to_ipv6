@@ -8,7 +8,7 @@ echo "=========== Re Compile Squid With Custom Configuration Params ============
 cd /opt
 mkdir youni_ipv4_to_ipv6
 cd youni_ipv4_to_ipv6
-wget -c http://www.squid-cache.org/gen_squid_conf.py
+wget -c https://raw.githubusercontent.com/abdelyouni/ipv4_to_ipv6/main/gen_squid_conf.py
 wget -c http://www.squid-cache.org/Versions/v4/squid-4.17.tar.gz
 tar -zxvf squid-4.17.tar.gz
 cd squid-4.17
